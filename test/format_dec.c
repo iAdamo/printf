@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * base10 - power in 10 base
+ * getBase - power in 10 base
  * @n: an exponent
  * Return: returns 10 to power exponent
  */
-int base10(int n)
+int getBase(int n)
 {
 	int base = 10;
 
@@ -16,17 +16,16 @@ int base10(int n)
 	return (base);
 }
 /**
- * integer_ID - A function that prints a base 10 integer
- * @i: integer to print
+ * decimal_ID - A function that prints a decimal base 10
+ * @i: base 10 integer to print
  * Return: number of printed digits
  */
-int integer_ID(va_list i)
+int decimal_ID(va_list i)
 {
 	int a[10];
-	int j = 1, num, sum = 0, count = 0;
-	int power;
+	int j = 1, power, num, sum = 0, count = 0;
 
-	power = base10(8);
+	power = getBase(8);
 
 	num = va_arg(i, int);
 	if (num < 0)
@@ -37,10 +36,11 @@ int integer_ID(va_list i)
 	}
 	a[0] = num / power;
 
-	for (; j < 10; j++)
+	while (j < 10)
 	{
 		power /= 10;
 		a[j] = (num / power) % 10;
+		j++;
 	}
 
 	for (j = 0; j < 10; j++)
