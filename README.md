@@ -41,7 +41,7 @@ We welcome pull requests from the community. If you intend to make major changes
 
 #### 3. Compilation
 - Your code will be compiled this way:
-  - gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+  - gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
   - You might want to look at the gcc flag *-Wno-format* when testing with your *_printf* and the standard printf.
 
  __EOF__
