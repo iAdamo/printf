@@ -23,5 +23,10 @@ struct type
 typedef struct type convert;
 
 int _printf(const char *format, ...);
+int _putchar(char c);
+int char_ID(va_list c);
+int string_ID(va_list s);
+int integer_ID(va_list i);
+int decimal_ID(va_list d);
 
 #endif

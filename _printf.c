@@ -8,10 +8,10 @@ int (*getFormat_ID(const char *format))(va_list)
 {
 	int i;
 	convert identifier[] = {
-		{"c", handleChar},
-		{"s", handleString},
-		{"i", handleInterger},
-		{"d", handleDec},
+		{"c", char_ID},
+		{"s", string_ID},
+		{"i", integer_ID},
+		{"d", decimal_ID},
 		{NULL, NULL}
 
 	};
