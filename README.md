@@ -1,5 +1,5 @@
 # printf
-##### A replica of the original C printf function 
+##### A replica of the original C printf function
 #### Team: [Adam Sanusi Babatunde](github.com/iAdamo/) & [Damilola Ifabiyi](github.com/Damilolaifabiyi/)
 ###### Content:
 - Project Algorithm
@@ -45,4 +45,3 @@ We welcome pull requests from the community. If you intend to make major changes
   - You might want to look at the gcc flag *-Wno-format* when testing with your *_printf* and the standard printf.
 
  __EOF__
- 
