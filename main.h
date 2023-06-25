@@ -1,5 +1,5 @@
-#ifndef MAIN
-#define MAIN
+#ifndef ADAM_DAMI
+#define ADAM_DAMI
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,7 +18,7 @@ struct type
 	int (*func)(va_list);
 };
 /**
- * convert - tpedef convert for struct type
+ * convert - typedef convert for struct type
  */
 typedef struct type convert;
 
