@@ -8,9 +8,25 @@ int (*getFormat_ID(const char *format))(va_list)
 {
 	int i;
 	convert identifier[] = {
-	};
+		{"c", handleChar},
+		{"s", handleString},
+		{"i", handleInterger},
+		{"d", handleDec},
+		{NULL, NULL}
 
+	};
+	i = 0;
+	while (identifier[i].a != NULL)
+	{
+		if (*(identifier[i].a) == *format)
+		{
+			break;
+		}
+		i++;
+	}
+	return (identifier[i].func);
 }
+
 /**
  * _printf - function that produces output according to a format
  * @format: formats
