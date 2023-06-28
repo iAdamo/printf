@@ -28,5 +28,6 @@ int char_ID(va_list c);
 int string_ID(va_list s);
 int integer_ID(va_list i);
 int decimal_ID(va_list d);
+int binary_ID(va_list b);
 
 #endif

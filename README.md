@@ -1,6 +1,6 @@
 # printf
 ##### A replica of the original C printf function
-#### Team: [Adam Sanusi Babatunde](github.com/iAdamo/) & [Damilola Ifabiyi](github.com/Damilolaifabiyi/)
+#### Team: [Adam Sanusi Babatunde](www.github.com/iAdamo/) & [Damilola Ifabiyi](www.github.com/Damilolaifabiyi/)
 ###### Content:
 - Project Algorithm
 - Project Flowchart

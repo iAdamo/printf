@@ -12,6 +12,7 @@ int (*getFormat_ID(const char *format))(va_list)
 		{"s", string_ID},
 		{"i", integer_ID},
 		{"d", decimal_ID},
+		{"b", binary_ID},
 		{NULL, NULL}
 
 	};
