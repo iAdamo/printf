@@ -1,6 +1,6 @@
 # printf
 ##### A replica of the original C printf function
-#### Team: [Adam Sanusi Babatunde](www.github.com/iAdamo/) & [Damilola Ifabiyi](www.github.com/Damilolaifabiyi/)
+#### Team: [Adam Sanusi Babatunde](https://github.com/iAdamo/) & [Damilola Ifabiyi](https://github.com/Damilolaifabiyi/)
 ###### Content:
 - Project Algorithm
 - Project Flowchart
@@ -16,13 +16,13 @@ For this project, we made tasks 0 to 1 mandatory parts, as all other 14 advanced
 The first task involved developing a function that only supports the 'c', 's', and '%' specifiers. In the subsequent task, we expanded the functionality by adding more specifiers.
 
 To achieve this, we utilized a main function named _printf(), which takes the string or specifiers as input and passes them to another function called check_format(). Within the check_format() function, we determine the type of specifier present and then forward it to another function responsible for printing the corresponding argument. To better comprehend the working process, you can refer to the provided flowchart.
-#### Usage
+#### Usage:
 To use this program, you will need to have all the files present in the repository.
 #### Contributing:
 We welcome pull requests from the community. If you intend to make major changes, please consider opening an issue first to discuss your proposed modifications.
 
 #### 1. Project Flowchart
-<!--PLEASE UPDATE FLOWCHART-->
+<img src="project_printf.png"/>
 
 #### 2. Project Tasks
 - 0.. Write a function that produces output according to a format.
